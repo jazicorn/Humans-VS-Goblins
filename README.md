@@ -3,11 +3,49 @@
 ### About
 Project assignment for Pyramid Academy(GenSpark).
 
+- System: MacOS
+
+#### Project run
+0. Install Java Tools
+````bash
+brew install openjdk
+brew install gradle
+brew install groovy
+````
+1. Clone Repository
+```bash
+https://github.com/jazicorn/Humans-VS-Goblins.git
+```
+2. Build Project
+```bash
+./gradlew build
+```
+3. Run Project
+```bash
+./gradlew run
+```
+Project Tools Information [macOS]
+|   Tool   |  Version  |     Purpose     | Documentation |
+| :------: | :-------: | :-------------: | :-----------: |
+| IntelliJ | Community | Code Editor     | [Install](https://www.jetbrains.com/idea/download/#section=mac) |
+| Java     | 17        | Language        | [Docs](https://docs.oracle.com/en/java/javase/17/) |
+| Homebrew | 1.16.1    | Package Manager | [Install](https://brew.sh/) |
+| Gradle   | 7.3.3     | Build Platform  | [Docs](https://groovy-lang.org/documentation.html) |
+| Groovy   | 4.0.0     | Build Script DSL| [Docs](https://docs.gradle.org/current/userguide/userguide.html) |
+
+Project Dependencies
+|  Tool  | Version |  Purpose  | Documentation |
+| :----: | :-----: | :-------: | :-----------: |
+| JUnit  |    5    | Testing   | [Docs](https://junit.org/junit5/docs/current/user-guide/) |
+
+## Project Planning
+
 #### Project Set-up
 - [X] Create GitHub Repository
 - [X] Choose Maven or Gradle
 - [X] Create .gitignore
 - [X] Project Specifications
+- [X] Built Docker Image for app
 
 ##### Project Specifications
 1. Everything must be objects: land/goblins/humans
@@ -38,14 +76,4 @@ Project assignment for Pyramid Academy(GenSpark).
 - [ ] Create Turn Based Moves: n/s/e/w
 - [ ] Create Initiate Combat
 
-Project Tools Information
-|  Tool  | Version |     Purpose     | Documentation |
-| :----: | :-----: | :-------------: | :-----------: |
-| Java   |   17    | Language        | [Docs](https://docs.oracle.com/en/java/javase/17/) |
-| Gradle |  7.3.3  | Build Platform  | [Docs](https://groovy-lang.org/documentation.html) |
-| Groovy |  4.0.0  | Build Script DSL| [Docs](https://docs.gradle.org/current/userguide/userguide.html) |
-
-Project Dependencies
-|  Tool  | Version |     Purpose     | Documentation |
-| :----: | :-----: | :-------------: | :-----------: |
-| JUnit  |    5    | Testing         | [Docs](https://junit.org/junit5/docs/current/user-guide/) |
+#### License: [MIT](https://choosealicense.com/licenses/mit/)

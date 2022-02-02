@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  app:
+    image: Humans.VS.Goblins/app:latest
+    container_name: app
+    build:
+      context: ./app
+      args:
+        - APP_NAME=app
+    environment:
+      SPRING_PROFILES_ACTIVE: dev
+    expose:
+      - 8081
+    ports:
+      - 8081:8081
