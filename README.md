@@ -1,16 +1,21 @@
-## Humans-VS-Goblins
+## Humans-VS-Goblins  🥷🏿 ⚔️ 👺
 
 ### About
+> Can you defeat the land of the goblins? 
+
 Project assignment for Pyramid Academy(GenSpark).
 
-- System: MacOS
+Task: Build a class-based RPG in the commandline.
 
-#### Project run
+### Features
+
+### Install [MacOS]
 0. Install Java Tools
 ````bash
 brew install openjdk
 brew install gradle
 brew install groovy
+brew install jenkins
 ````
 1. Clone Repository
 ```bash
@@ -24,28 +29,33 @@ https://github.com/jazicorn/Humans-VS-Goblins.git
 ```bash
 ./gradlew run
 ```
-Project Tools Information [macOS]
-|   Tool   |  Version  |     Purpose     | Documentation |
-| :------: | :-------: | :-------------: | :-----------: |
-| IntelliJ | Community | Code Editor     | [Install](https://www.jetbrains.com/idea/download/#section=mac) |
-| Java     | 17        | Language        | [Docs](https://docs.oracle.com/en/java/javase/17/) |
-| Homebrew | 1.16.1    | Package Manager | [Install](https://brew.sh/) |
-| Gradle   | 7.3.3     | Build Platform  | [Docs](https://groovy-lang.org/documentation.html) |
-| Groovy   | 4.0.0     | Build Script DSL| [Docs](https://docs.gradle.org/current/userguide/userguide.html) |
+
+Project Tools Information
+|   Tool   |  Version  |     Purpose     | Install | Documentation |
+| :------: | :-------: | :-------------: | :-----: | :-----------: |
+| IntelliJ | Community | Code Editor     | [Install](https://www.jetbrains.com/idea/download/#section=mac) | [Resources](https://www.jetbrains.com/idea/resources/) |
+| Java     | 17        | Language        | [Downloads](https://www.oracle.com/java/technologies/downloads/) | [Docs](https://docs.oracle.com/en/java/javase/17/) |
+| Homebrew | 1.16.1    | Package Manager | [Install](https://brew.sh/) | [Docs](https://docs.brew.sh/) |
+| Gradle   | 7.3.3     | Build Platform  | [Install](https://gradle.org/install/) | [Docs](https://groovy-lang.org/documentation.html) |
+| Groovy   | 4.0.0     | Build Script DSL| [Install](https://groovy-lang.org/install.html) | [Docs](https://docs.gradle.org/current/userguide/userguide.html) |
+| Jenkins  | openjdk@11| CI/CD           | [Install](https://www.jenkins.io/doc/book/installing/) | [Docs](https://www.jenkins.io/doc/) |
 
 Project Dependencies
 |  Tool  | Version |  Purpose  | Documentation |
 | :----: | :-----: | :-------: | :-----------: |
-| JUnit  |    5    | Testing   | [Docs](https://junit.org/junit5/docs/current/user-guide/) |
+| JUnit  |    5    | Testing   | [Docs](https://junit.org/junit5/docs/current/user-guide/)|
+
+Jenkins Scripts (app)
+> Default runs on http://localhost:8080 | http://127.0.0.1:8080/
+> Pipeline: http://localhost:8080/job/app
+```bash
+brew services start jenkins
+brew services stop jenkins
+brew services restart jenkins
+brew upgrade jenkins
+```
 
 ## Project Planning
-
-#### Project Set-up
-- [X] Create GitHub Repository
-- [X] Choose Maven or Gradle
-- [X] Create .gitignore
-- [X] Project Specifications
-- [X] Built Docker Image for app
 
 ##### Project Specifications
 1. Everything must be objects: land/goblins/humans
@@ -63,7 +73,37 @@ Project Dependencies
     5. goblins pursue player
 9. Unit Testing
 
-##### Project Steps
+#### Project Task
+- [X] Create GitHub Repository
+- [X] Choose Maven or Gradle
+- [X] Create .gitignore
+- [ ] Add Badges
+   - [ ] Version
+   - [ ] Coverage
+   - [ ] Build
+   - [ ] License
+- [X] Project Specifications
+- [ ] Add Dependencies to README dependency chart
+- [ ] Docker
+  - Documentation
+    - [ ] Add Instructions to README
+  - Installation
+    - [ ] Install Docker Hub locally and create online account
+  - Docker-Compose
+    - [X] Create docker-compose.yaml
+    - [X] Add "app" module to docker-compose.yaml
+  - Dockerfiles
+    - [X] "app" module
+      - [X] Create Dockerfile
+      - [X] Build Docker Image
+      - [X] Push Docker Image to DockerHub
+      - [X] Add com.palantir plugin dependencies to build.gradle
+- CI/CD
+  - [X] Add Jenkins
+- [ ] Add Redis as Cache Memory Store
+- [ ] Add Elastic Stack for logging
+
+#### Programming Task
 - [ ] Create Objects
 - [ ] Object: Land
 - [ ] Object: Goblin
@@ -75,5 +115,9 @@ Project Dependencies
 - [ ] UTF Land
 - [ ] Create Turn Based Moves: n/s/e/w
 - [ ] Create Initiate Combat
+
+
+#### References
+- [CodingConcepts](https://codingnconcepts.com/spring-boot/deployment-of-microservices-using-docker-and-jenkins/)
 
 #### License: [MIT](https://choosealicense.com/licenses/mit/)
