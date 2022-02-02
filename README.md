@@ -1,4 +1,4 @@
-## Humans-VS-Goblins  🥷🏿 ⚔️ 👺
+## Humans-VS-Goblins | 🥷🏿 ⚔️ 👺
 
 ### About
 > Can you defeat the land of the goblins? 
@@ -7,7 +7,7 @@ Project assignment for Pyramid Academy(GenSpark).
 
 Task: Build a class-based RPG in the commandline.
 
-### Features
+<!-- ### Features -->
 
 ### Install (MacOS)
 0. Install Java Tools
@@ -57,7 +57,7 @@ brew upgrade jenkins
 
 ## Project Planning
 
-#### Project Specifications
+#### Project Specifications | Version 1
 1. Everything must be objects: land/goblins/humans
 2. You must override the toString method to represent each of the object
 3. Create a grid for the game world
@@ -73,37 +73,47 @@ brew upgrade jenkins
     5. goblins pursue player
 9. Unit Testing
 
-#### Project Task
+#### Project Task | Version 1
 - [X] Create GitHub Repository
 - [X] Choose Maven or Gradle
 - [X] Create .gitignore
-- [ ] Add Badges
-   - [ ] Version
-   - [ ] Coverage
-   - [ ] Build
-   - [ ] License
-- [X] Project Specifications
-- [ ] Add Dependencies to README dependency chart
-- [ ] Docker
-  - Documentation
-    - [ ] Add Instructions to README
-  - Installation
-    - [ ] Install Docker Hub locally and create online account
-  - Docker-Compose
-    - [X] Create docker-compose.yaml
-    - [X] Add "app" module to docker-compose.yaml
-  - Dockerfiles
-    - [X] "app" module
-      - [X] Create Dockerfile
-      - [X] Build Docker Image
-      - [X] Push Docker Image to DockerHub
-      - [X] Add com.palantir plugin dependencies to build.gradle
-- CI/CD
-  - [X] Add Jenkins
+- README.md
+  - [ ] Add Badges
+     - [ ] Version
+     - [ ] Coverage
+     - [ ] Build
+     - [ ] License
+  - [X] Project Specifications
+  - [ ] Add Dependencies to dependency chart
+- Modules
+  - [ ] App Module
+  - [ ] Common Module
+    - [ ] API Global Exception Handler
+    - [ ] API documentation
+    - [ ] API logging
+    - [ ] API authentication & security
+- Dev-Ops
+  - [ ] Docker
+    - Documentation
+      - [ ] Add Instructions to README
+    - Installation
+      - [ ] Install Docker Hub locally and create online account
+    - Docker-Compose
+      - [X] Create docker-compose.yaml
+      - [X] Add "app" module to docker-compose.yaml
+    - Dockerfiles
+      - [X] "app" module
+        - [X] Create Dockerfile
+        - [X] Build Docker Image
+        - [X] Push Docker Image to DockerHub
+        - [X] Add com.palantir plugin dependencies to build.gradle
+  - CI/CD
+    - [X] Add Jenkins
+- Potential 3rd Party Services:
 - [ ] Add Redis as Cache Memory Store
 - [ ] Add Elastic Stack for logging
 
-#### Programming Task
+#### Programming Task | Version 1
 - [ ] Create Objects
 - [ ] Object: Land
 - [ ] Object: Goblin
@@ -115,7 +125,6 @@ brew upgrade jenkins
 - [ ] UTF Land
 - [ ] Create Turn Based Moves: n/s/e/w
 - [ ] Create Initiate Combat
-
 
 #### References
 - [CodingConcepts](https://codingnconcepts.com/spring-boot/deployment-of-microservices-using-docker-and-jenkins/)
