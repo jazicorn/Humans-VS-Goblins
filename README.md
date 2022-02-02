@@ -9,7 +9,7 @@ Task: Build a class-based RPG in the commandline.
 
 ### Features
 
-### Install [MacOS]
+### Install (MacOS)
 0. Install Java Tools
 ````bash
 brew install openjdk
@@ -45,9 +45,9 @@ Project Dependencies
 | :----: | :-----: | :-------: | :-----------: |
 | JUnit  |    5    | Testing   | [Docs](https://junit.org/junit5/docs/current/user-guide/)|
 
+### Testing
 Jenkins Scripts (app)
 > Default runs on http://localhost:8080 | http://127.0.0.1:8080/
-> Pipeline: http://localhost:8080/job/app
 ```bash
 brew services start jenkins
 brew services stop jenkins
@@ -57,7 +57,7 @@ brew upgrade jenkins
 
 ## Project Planning
 
-##### Project Specifications
+#### Project Specifications
 1. Everything must be objects: land/goblins/humans
 2. You must override the toString method to represent each of the object
 3. Create a grid for the game world
