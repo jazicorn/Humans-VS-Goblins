@@ -1,7 +1,7 @@
 ## TODO
 
 #### TODO 2/3/21
-- 1. Order of Operations
+- 1 Order of Operations
 - In Progress Items
 - Some Assignments??? 
 
