@@ -1,26 +1,26 @@
 ## TODO
 
-###TODO 2/3/21
-1. Order of Operations
-In Progress Items
-Some Assignments??? 
+#### TODO 2/3/21
+- 1. Order of Operations
+- In Progress Items
+- Some Assignments??? 
 
-### Questions for instructor
+#### Questions for instructor
 - Does the map suppose to have a set size?
 - Does the game suppose to have a goal other than fighting goblins?
 
-### Order-Of-Operations
+#### Order-Of-Operations
 1. Create Player & NPC Objects
- - Interface
-   - Common Attributes
-     - HP
-     - Attack
-     - Defense
- - Class File: Goblins
-   - Extra: Drops
- - Class File: Humans
-   - Extra: Equipment
-   - Extra: Items
+   - Interface
+     - Common Attributes
+       - HP
+       - Attack
+       - Defense
+   - Class File: Goblins
+     - Extra: Drops
+   - Class File: Humans
+     - Extra: Equipment
+     - Extra: Items
 2. Create Land Objects
    - Interface
      - Common Attributes
@@ -49,7 +49,7 @@ Some Assignments???
   - Extra: Pursuit
     - Goblin pursues player
 
-##### Extras:
+#### Extras:
 1. Player Accounts
    - Player Name
    - Player Chooses Avatar
@@ -60,7 +60,9 @@ Some Assignments???
      - Store Data
 3. Leader Board
    - Player Rankings
-   
+
+##
+
 ### TODO
 
 - Jenkins: Create Microservices Pipeline [Microservices](References.md#Microservices)
@@ -95,3 +97,5 @@ Some Assignments???
 - GitHub: Add Humans-VS-Goblins to academy repo
 
 ### Done
+
+...
