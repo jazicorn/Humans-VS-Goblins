@@ -1,0 +1,24 @@
+/*
+ * Attempting to build my first library with gradle
+ * Official Gradle Plugin library Docs:
+ * https://docs.gradle.org/current/userguide/java_library_plugin.html#java_library_plugin
+ * Possibly use redis
+ *
+ */
+
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.8.2')
+}
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    // Use JUnit Jupiter test framework
+    useJUnitPlatform()
+}
