@@ -49,6 +49,8 @@ https://github.com/jazicorn/Humans-VS-Goblins.git
     3. stats can be modified by equipment
     4. map gen random treasure chest after each round of combat
     5. goblins pursue player
+    6. Keep track of player score
+    7. create a scoreboard for top players
 9. Unit Testing
 
 ### Programming List

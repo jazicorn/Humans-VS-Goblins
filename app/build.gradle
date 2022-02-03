@@ -17,7 +17,7 @@ plugins {
 }
 
 group = 'Humans.VS.Goblins'
-sourceCompatibility = '11'
+version = '1.0.0'
 
 repositories {
     // Use Maven Central for resolving dependencies.
@@ -38,6 +38,10 @@ dependencies {
 
     compileOnly 'org.projectlombok:lombok:1.18.20'
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    // subprojects
+    implementation project(':inventory-system')
+
 }
 
 test {

@@ -10,3 +10,4 @@
 
 rootProject.name = 'Humans-VS-Goblins'
 include('app')
+include('inventory-system')
