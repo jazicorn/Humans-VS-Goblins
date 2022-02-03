@@ -3,9 +3,9 @@
 ### About
 > Can you defeat the land of the goblins?
 
-Project assignment for Pyramid Academy(GenSpark).
+Project For Pyramid Academy(GenSpark).
 
-Task: Build GUI on top of version 1 of project.
+Assignment: Build GUI on top of version 1 of project.
 
 #### Project Specifications | Part 2
 1. Add GUI

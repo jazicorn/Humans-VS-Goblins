@@ -23,7 +23,7 @@
 3. 📦 **Modules**
 
    💪 **App Module**
-    1. - [ ] Code
+    1. Code
       - [ ] Create Objects
         - [ ] Humans
         - [ ] Goblins
@@ -32,7 +32,7 @@
       - [ ] UTF Characters
       - [ ] Turn Based Moves
       - [ ] Initiate Combat
-    2. - [ ] Test
+    2. Test
       - [ ] Create Objects
         - [ ] Humans
         - [ ] Goblins
@@ -51,19 +51,19 @@
 5. 📁 **DevOps**
 
    🐳 **Docker**
-     - Documentation
-       - [ ] Add Instructions to README
-     - Installation
-       - [X] Install Docker Hub locally and create online account
-     - Docker-Compose
-       - [X] Create docker-compose.yaml
-       - [X] Add "app" module to docker-compose.yaml
-     - Dockerfiles
-       - [X] "app" module
-         - [X] Create Dockerfile
-         - [X] Build Docker Image
-         - [X] Push Docker Image to DockerHub
-         - [X] Add com.palantir plugin dependencies to build.gradle
+     1. Documentation
+        - [ ] Add Instructions to README
+     2. Installation
+        - [X] Install Docker Hub locally and create online account
+     3. Docker-Compose
+        - [X] Create docker-compose.yaml
+        - [X] Add "app" module to docker-compose.yaml
+     4. Dockerfiles
+        - [X] "app" module
+          - [X] Create Dockerfile
+          - [X] Build Docker Image
+          - [X] Push Docker Image to DockerHub
+          - [X] Add com.palantir plugin dependencies to build.gradle
          
    ⚙️ **CI/CD Jenkins**
      - [X] Install Jenkins locally
@@ -74,3 +74,4 @@
 #### Potential 3rd Party Services:
 - Redis as Cache Memory Store
 - Elastic Stack for logging
+- Postgres for user accounts 
