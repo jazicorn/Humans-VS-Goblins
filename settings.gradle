@@ -10,4 +10,8 @@
 
 rootProject.name = 'Humans-VS-Goblins'
 include('app')
-include('inventory-system')
+include('library-system-inventory')
+include('library-system-job')
+include('web-app')
+
+
