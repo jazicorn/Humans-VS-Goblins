@@ -32,6 +32,9 @@ dependencies {
     implementation 'org.springdoc:springdoc-openapi-ui:latest.release'
     implementation 'commons-io:commons-io:2.6'
 
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+
     // testImplementation 'org.springframework.boot:spring-boot-starter-test'
     // testImplementation 'org.springframework.cloud:spring-cloud-starter-contract-stub-runner'
     testImplementation('org.junit.jupiter:junit-jupiter:5.8.2')
@@ -40,7 +43,8 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.20'
 
     // subprojects
-    implementation project(':inventory-system')
+    implementation project(':library-system-inventory')
+    implementation project(':library-system-job')
 
 }
 
