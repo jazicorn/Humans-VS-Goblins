@@ -32,11 +32,10 @@ test {
     useJUnitPlatform()
 }
 
-version = '0.1.0'
+version = '0.0.1'
 
 jar {
-    manifest(({
-        attributes('Implementation-Title': project.name,
-                'Implementation-Version': project.version)
-    } as groovy.lang.Closure<?>))
+    manifest {
+        attributes('Implementation-Title': project.name, 'Implementation-Version': project.version)
+    }
 }
