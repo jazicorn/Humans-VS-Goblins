@@ -9,7 +9,7 @@
  */
 
 rootProject.name = 'Humans-VS-Goblins'
-include('app')
+include('product-app')
 include('library-system-inventory')
 include('library-system-job')
 include('web-app')

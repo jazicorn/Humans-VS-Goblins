@@ -1,13 +1,14 @@
 version: "3.8"
 
 services:
-  app:
-    image: Humans.VS.Goblins/app:latest
-    container_name: app
+  product-app:
+    image: hsvg/product-app:latest
+    container_name: product-app
     build:
-      context: ./app
+      context: ./product-app
       args:
-        - APP_NAME=app
+        - APP_NAME=product-app
+        - APP_VERSION=0.0.1
     environment:
       SPRING_PROFILES_ACTIVE: dev
     expose:
