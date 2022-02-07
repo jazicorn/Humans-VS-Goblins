@@ -10,7 +10,7 @@ Project Tools
 Project Dependencies
 |   Dep   |  Version  |     Purpose     | Install | Documentation |
 | :-----: | :-------: | :-------------: | :-----: | :-----------: |
-| Java    | 17        | Language        | [Downloads](https://www.oracle.com/java/technologies/downloads/) | [Docs](https://docs.oracle.com/en/java/javase/17/) |
+| Java    | 11        | Language        | [Downloads](https://www.oracle.com/java/technologies/downloads/) | [Docs](https://docs.oracle.com/en/java/javase/11/) |
 | Gradle  | 7.3.3     | Build Platform  | [Install](https://gradle.org/install/) | [Docs](https://groovy-lang.org/documentation.html) |
 | Groovy  | 4.0.0     | Build Script DSL| [Install](https://groovy-lang.org/install.html) | [Docs](https://docs.gradle.org/current/userguide/userguide.html) |
 | Jenkins | openjdk@11| CI/CD           | [Install](https://www.jenkins.io/doc/book/installing/) | [Docs](https://www.jenkins.io/doc/) |
